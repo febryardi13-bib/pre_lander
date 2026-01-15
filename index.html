@@ -87,6 +87,8 @@ button {
 </div>
 
 <script>
+let originalUrl = 'https://febryardi13-bib.github.io/pre_lander/index.html';
+let encodedUrl = encodeURIComponent(originalUrl);
 setTimeout(() => {
     document.getElementById("status").innerText = "Access verified ✔";
     document.getElementById("continueBtn").style.display = "inline-block";
